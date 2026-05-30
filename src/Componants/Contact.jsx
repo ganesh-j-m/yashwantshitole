@@ -110,7 +110,7 @@ const Contact = () => {
                             <div className='text-purple text-2xl mr-4'><FaEnvelope /></div>
                             <div>
                                 <h3 className='text-lg font-semibold mb-2'>Email</h3>
-                                <p className='text-gray-400'>ganeshmore1552@gmail.com</p>
+                                <p className='text-gray-400'>careerkatta365@gmail.com</p>
                             </div>
                         </div>
                         <div className='flex item-start'>

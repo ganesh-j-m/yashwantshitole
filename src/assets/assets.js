@@ -374,7 +374,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Pukalanthi Career Katta Monthly",
+    title: "Yuvakansathi Career Katta Magazine",
     description: "A monthly career guidance session for youth in rural and semi-urban areas.",
     image: projectImg26,
     tech: ["2025"],
@@ -536,7 +536,7 @@ const books = [
   {
     title: "संवाद चांगुलपणाचा",
     description: "चांगुलपणाची चळवळ — ३६५ भागांच्या ऑनलाईन संवाद मालिकेतून समाजात सकारात्मकता पसरवण्याचा प्रयत्न.",
-    image: projectImg28,
+    image: projectImg30,
     tech: ["Social & Motivational"],
     icons: [FaBookOpen],
     demo: "",
@@ -556,7 +556,7 @@ const books = [
   {
     title: "सोशल मिडिया",
     description: "सोशल मिडियाचा शैक्षणिक व सामाजिक वापर, विद्यार्थी व तरुणांसाठी मार्गदर्शक पुस्तक.",
-    image: projectImg30,
+    image: projectImg31,
     tech: ["Technology & Society"],
     icons: [FaBookOpen],
     demo: "",
@@ -566,7 +566,7 @@ const books = [
   {
     title: "गुरुG — पहिली ते पदवी",
     description: "अनुभवातून शिकवणाऱ्या गुरूंबाबत — पहिली ते पदवीपर्यंतच्या शिक्षण प्रवासाची प्रेरणादायी कहाणी.",
-    image: projectImg31,
+    image: projectImg28,
     tech: ["Education & Inspiration"],
     icons: [FaBookOpen],
     demo: "",
