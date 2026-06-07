@@ -18,10 +18,10 @@ const Skill = () => {
                 <div className='grid grid-cols-1 md-grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto'>
                     {
                         skills.map((skill, index) => (
-                            <div key={index} className='bg-gray-300 border-red-500 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 cursor-pointer'>
+                            <div key={index} className='bg-blue-300 border-red-500 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 cursor-pointer'>
                                 <div className='flex items-center mb-4'>
-                                    <skill.icon className='w-12 h-12 text-black mr-6' />
-                                    <h3 className='text-xl text-black font-semibold'>{skill.title}</h3>
+                                    <skill.icon className='w-12 h-12 text-white mr-6' />
+                                    <h3 className='text-xl text-white font-semibold'>{skill.title}</h3>
                                 </div>
                                 <p className='text-gray-800 mb-4'>{skill.description}</p>
                                 <div className='flex flex-wrap gap-2'>

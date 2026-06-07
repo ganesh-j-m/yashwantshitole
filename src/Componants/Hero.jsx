@@ -30,10 +30,10 @@ const Hero = () => {
                             width: 'fit-content',
                             maxWidth: '100%'
                         }}>
-                        President and Founder of 
+                        President and Founder of
                     </h2>
-                    <p className='text-lg text-gray-800 mb-8'>
-                        "Maharastra Information Technology Support Centre"
+                    <p className='text-lg text-gray-800 mb-8'> <b>
+                        " Maharastra Information Technology Support Centre "</b>
                     </p>
                     <div className='flex space-x-4 justify-center md:justify-start'>
                         <a href="#projects" className='px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'>

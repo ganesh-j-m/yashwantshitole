@@ -2,11 +2,11 @@ import React from 'react'
 
 const ProjectCard = ({ title, description, image, tech }) => {
     return (
-        <div className='bg-gray-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
+        <div className='bg-blue-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
             <img src={image} alt={title} className='w-full h-50 object-cover object-center' />
             <div className='p-6'>
                 <h3
-                 className='text-xl text-black font-bold mb-2'>{title}</h3>
+                 className='text-xl text-white font-bold mb-2'>{title}</h3>
                 <p className='text-gray-700 mb-4'>{description}</p>
                 <div className='flex flex-wrap gap-2 mb-4'>
                     {tech.map((item, index) => (
