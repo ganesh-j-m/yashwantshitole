@@ -12,7 +12,7 @@ const Awards = () => {
             id='awards'
             className='py-20 bg-dark-500'
         >
-            <div className='container mx-auto px-6'>
+            <div className='container mx-auto px-6 bg-gray-100 '>
                 <h2 className='text-3xl font-bold text-center mb-4'>
                     <span className='text-purple'>Awards</span>
                 </h2>
@@ -36,7 +36,7 @@ const Awards = () => {
 
 
                                 {/* Box */}
-                                <div className='bg-red-200 text-black rounded-3xl p-6 mb-6'>
+                                <div className='bg-white text-black rounded-3xl p-6 mb-6'>
                                     <div className='flex justify-between items-start mb-2'>
                                         <h3 className='text-xl font-bold'>{data.role}</h3>
                                         <span className='px-3 py-1 bg-black/50 text-white 

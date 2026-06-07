@@ -12,7 +12,7 @@ const BookPublished = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             viewport={{ once: true, amount: 0.05 }}
             id='Books'
-            className='py-20 bg-white-200'
+            className='py-20 bg-gray-100'
         >
             <div className='container mx-auto px-6'>
                 <h2 className='text-3xl font-bold text-center mb-4'>
