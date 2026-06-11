@@ -13,7 +13,7 @@ import BookPublished from '../Componants/BooksPublished'
 
 const Home = () => {
     return (
-        <div>
+        <div className='container mx-auto px-6  bg-gray-100'>
             <Hero />
             <About />
             <Skill />
