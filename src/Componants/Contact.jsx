@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { db } from "../firebase";
+import { ref, push } from "firebase/database";
 
 const Contact = () => {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -13,19 +15,16 @@ const Contact = () => {
     const handleSubmit = async () => {
         setStatus("loading");
         try {
-            const response = await fetch("https://portfolio-backend-production-3971.up.railway.app/api/contact", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData),
+            await push(ref(db, "contacts"), {
+                name: formData.name,
+                email: formData.email,
+                message: formData.message,
+                createdAt: new Date().toISOString(),
             });
-            const result = await response.json();
-            if (result.success) {
-                setStatus("success");
-                setFormData({ name: "", email: "", message: "" });
-            } else {
-                setStatus("error");
-            }
+            setStatus("success");
+            setFormData({ name: "", email: "", message: "" });
         } catch (error) {
+            console.error(error);
             setStatus("error");
         }
     };

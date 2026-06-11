@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { db } from "../firebase";
+import { ref, push } from "firebase/database";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -12,25 +14,22 @@ const ContactForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     setStatus("loading");
 
     try {
-      const response = await fetch("http://localhost:5001/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+      await push(ref(db, "contacts"), {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+        createdAt: new Date().toISOString(),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
-        setStatus("success");
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        setStatus("error");
-      }
+      setStatus("success");
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
+      console.error(error);
       setStatus("error");
     }
   };
@@ -84,7 +83,6 @@ const ContactForm = () => {
         )}
 
         <button
-          type="button"
           onClick={handleSubmit}
           style={{
             ...styles.button,
