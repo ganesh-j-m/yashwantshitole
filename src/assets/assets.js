@@ -5,7 +5,7 @@ import projectImg0 from '../assets/about.avif';
 import projectImg1 from '../assets/project01.avif';
 import projectImg2 from '../assets/project02.svg';
 import projectImg3 from '../assets/project03.svg';
-import projectImg4 from '../assets/project04.svg';
+import projectImg4 from '../assets/project04.jpg';
 import projectImg5 from '../assets/project05.png';
 import projectImg6 from '../assets/project06.png';
 import projectImg7 from '../assets/project07.svg';
@@ -19,15 +19,15 @@ import projectImg14 from '../assets/project14.svg';
 import projectImg15 from '../assets/project15.svg';
 import projectImg16 from '../assets/project16.svg';
 import projectImg17 from '../assets/project17.svg';
-import projectImg18 from '../assets/project18.svg';
-import projectImg19 from '../assets/project19.svg';
+import projectImg18 from '../assets/project18.jpeg';
+import projectImg19 from '../assets/project19.jpeg';
 import projectImg20 from '../assets/project20.jpeg';
 import projectImg21 from '../assets/project21.jpeg';
-import projectImg22 from '../assets/project22.svg';
-import projectImg23 from '../assets/project23.svg';
+import projectImg22 from '../assets/project22.jpeg';
+import projectImg23 from '../assets/project23.jpeg';
 import projectImg24 from '../assets/project24.png';
-import projectImg25 from '../assets/project25.webp';
-import projectImg26 from '../assets/project26.svg';
+import projectImg25 from '../assets/project25.jpeg';
+import projectImg26 from '../assets/project26.jpeg';
 import projectImg27 from '../assets/project27.jpeg';
 import projectImg28 from '../assets/project28.jpeg';
 import projectImg29 from '../assets/project29.jpeg';
@@ -346,7 +346,7 @@ export const projects = [
   },
 
   {
-    title: "Road and Driver Safety Campaign",
+    title: " Driver Safety Campaign",
     description: "Creating widespread public awareness regarding road safety regulations and responsible driving habits.",
     image: projectImg4,
     tech: ["2015"],
