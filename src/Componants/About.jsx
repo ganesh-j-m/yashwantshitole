@@ -8,10 +8,10 @@ const About = () => {
         <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
-            viewport={{ once: true }}
+            transition={{ duration: 1, ease: 'easeOut' }}
+            viewport={{ once: false, amount: 0.2 }}
             id='about'
-            className='py-20 bg-white-200'
+            className='py-20 bg-white-100'
         >
             <div className='container mx-0 px-6'>
                 {/* heading */}
@@ -53,8 +53,6 @@ const About = () => {
 
 
                         </div>
-
-                        {/* cards */}
 
                     </motion.div>
                 </div >

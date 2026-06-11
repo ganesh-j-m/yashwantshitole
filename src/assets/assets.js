@@ -169,7 +169,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Yuvakansathi Career Katta Magazine",
+    title: " Career Katta Magazine",
     description: "A monthly career guidance session for youth in rural and semi-urban areas.",
     image: projectImg26,
     tech: ["2025"],
@@ -536,7 +536,7 @@ const books = [
     demo: "",
     code: "#",
   },
-  
+
   {
     title: "सोशल मिडिया",
     description: "सोशल मिडियाचा शैक्षणिक व सामाजिक वापर, विद्यार्थी व तरुणांसाठी मार्गदर्शक पुस्तक.",

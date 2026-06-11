@@ -17,7 +17,7 @@ const Awards = () => {
                     <span className='text-purple'>Awards</span>
                 </h2>
 
-                <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>"Awards are not a reflection of success, but a receipt of dedication."</p>
+                <p className='text-gray-600 text-center max-w-2xl mx-auto mb-16'>"Awards are not a reflection of success, but a receipt of dedication."</p>
                 <div className='max-w-3xl mx-auto'>
                     <div className='space-y-12'></div>
                     {

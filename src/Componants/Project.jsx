@@ -7,16 +7,16 @@ import { FaArrowRight } from 'react-icons/fa'
 const Project = () => {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-            viewport={{ once: true, amount: 0.05 }}
+            transition={{ duration: 1, ease: 'easeOut' }}
+            viewport={{ once: false, amount: 0.2 }}
             id='projects'
-            className='py-20 bg-gray-100'
+            className='py-20 bg-white-100'
         >
             <div className='container mx-auto px-6'>
                 <h2 className='text-3xl font-bold text-center mb-4'>
-                   <span className='text-purple'>  My Projects</span>
+                    <span className='text-purple'>  My Projects</span>
                 </h2>
                 <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>A selection of my Recently work</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto'>

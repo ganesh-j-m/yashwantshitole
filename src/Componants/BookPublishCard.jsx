@@ -19,7 +19,9 @@ const BookPublishCard = ({ title, description, image, tech }) => {
                     </a>
                 </div>
             </div>
+           
         </div>
+
     )
 }
 
