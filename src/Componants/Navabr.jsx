@@ -12,9 +12,8 @@ const Navabr = () => {
 
                 <div>
                     <a href="#" className='text-3xl font-bold text-purple'>
-                        Yashwant
-
-                        <span className='text-purple'>Shitole</span>
+                        Yashwant Shitole
+                       
                         <div className='w-4 h-4 bg-purple rounded-full'></div>
                     </a>
                 </div>
