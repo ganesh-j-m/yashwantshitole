@@ -404,7 +404,7 @@ export const workData = [
   },
   {
     role: "Founder",
-    company: "Maharashtra Information Technology Support Centre",
+    company: "MITSC Career katta",
     duration: "2022 - Present",
     description: "Serving as President of MITSC Career Katta, leading career guidance and professional development initiatives.",
     color: "purple"
@@ -454,7 +454,7 @@ export const workData = [
   },
   {
     role: "President MITSC",
-    company: "MITSC Career Katta",
+    company: "MITSC",
     duration: "2006 - Present",
     description: "Founded Maharashtra Information Technology Support Centre, leading technology-driven initiatives for career and skill development across Maharashtra.",
     color: "purple"
